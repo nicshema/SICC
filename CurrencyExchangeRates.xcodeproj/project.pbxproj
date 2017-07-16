@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		917858751F197757001D2FB5 /* OnlineCurrencyConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 917858741F197757001D2FB5 /* OnlineCurrencyConverter.m */; };
+		917858781F1A13F5001D2FB5 /* CurrencyPickerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 917858771F1A13F5001D2FB5 /* CurrencyPickerHelper.m */; };
 		91B869241F16AF14005D386E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B869231F16AF14005D386E /* main.m */; };
 		91B869271F16AF14005D386E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B869261F16AF14005D386E /* AppDelegate.m */; };
 		91B8692A1F16AF14005D386E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B869291F16AF14005D386E /* ViewController.m */; };
@@ -16,6 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9178586B1F197419001D2FB5 /* CurrencyConverter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CurrencyConverter.h; sourceTree = "<group>"; };
+		917858731F197757001D2FB5 /* OnlineCurrencyConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnlineCurrencyConverter.h; sourceTree = "<group>"; };
+		917858741F197757001D2FB5 /* OnlineCurrencyConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnlineCurrencyConverter.m; sourceTree = "<group>"; };
+		917858761F1A13F5001D2FB5 /* CurrencyPickerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencyPickerHelper.h; sourceTree = "<group>"; };
+		917858771F1A13F5001D2FB5 /* CurrencyPickerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrencyPickerHelper.m; sourceTree = "<group>"; };
 		91B8691F1F16AF14005D386E /* CurrencyExchangeRates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyExchangeRates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91B869231F16AF14005D386E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		91B869251F16AF14005D386E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +74,11 @@
 				91B869301F16AF14005D386E /* LaunchScreen.storyboard */,
 				91B869331F16AF14005D386E /* Info.plist */,
 				91B869221F16AF14005D386E /* Supporting Files */,
+				9178586B1F197419001D2FB5 /* CurrencyConverter.h */,
+				917858731F197757001D2FB5 /* OnlineCurrencyConverter.h */,
+				917858741F197757001D2FB5 /* OnlineCurrencyConverter.m */,
+				917858761F1A13F5001D2FB5 /* CurrencyPickerHelper.h */,
+				917858771F1A13F5001D2FB5 /* CurrencyPickerHelper.m */,
 			);
 			path = CurrencyExchangeRates;
 			sourceTree = "<group>";
@@ -151,8 +163,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				917858751F197757001D2FB5 /* OnlineCurrencyConverter.m in Sources */,
 				91B8692A1F16AF14005D386E /* ViewController.m in Sources */,
 				91B869271F16AF14005D386E /* AppDelegate.m in Sources */,
+				917858781F1A13F5001D2FB5 /* CurrencyPickerHelper.m in Sources */,
 				91B869241F16AF14005D386E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,7 +233,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -260,7 +274,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -310,6 +324,7 @@
 				91B869381F16AF14005D386E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

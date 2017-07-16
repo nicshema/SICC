@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "OnlineCurrencyConverter.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITextFieldDelegate>
 
 
 @end
